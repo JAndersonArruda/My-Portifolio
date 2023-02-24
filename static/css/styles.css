@@ -17,6 +17,7 @@ h1 {
 .textColor-p {
     text-indent: 23px;
     text-align: justify;
+    font-family:'Times New Roman', Times, serif;
 }
 
 footer {
@@ -62,7 +63,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    background-color: rgba(185, 117, 28, 0.222);
+    background-color: rgba(185, 117, 28, 0.433);
     width: 950px;
     height: 155px;
     border-radius: 50px;
@@ -83,6 +84,45 @@ footer {
     position: relative;
 }
 
+@media screen and (max-width: 855px) {
+    .profile-text {
+        background-color: rgba(185, 117, 28, 0.433);
+        width: 950px;
+        height: 200px;
+        border-radius: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 685px) {
+    .profile-text {
+        background-color: rgba(185, 117, 28, 0.433);
+        width: 950px;
+        height: 300px;
+        border-radius: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 493px) {
+    .profile-text {
+        background-color: rgba(185, 117, 28, 0.433);
+        width: 950px;
+        height: 340px;
+        border-radius: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 364px) {
+    .profile-text {
+        background-color: rgba(185, 117, 28, 0.433);
+        width: 950px;
+        height: 385px;
+        border-radius: 50px;
+    }
+    
+}
 
 
 
@@ -113,16 +153,20 @@ footer {
     margin-top: 55px;
 }
 
+.skillsText {
+    height: 230px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.textSkills {
+    text-align: center;
+}
+
 .skillsIcons {
     font-size: 36px;
     text-align: center;
     width: 100%;
-}
-
-.skillsText {
-    height: 200px;
-    cursor: pointer;
-    text-align: center;
 }
 
 .card:hover .skillsIcons {

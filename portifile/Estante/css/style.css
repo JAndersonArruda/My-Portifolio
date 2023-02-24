@@ -7,11 +7,18 @@ body {
     text-align: justify;
     background-color: #ffe4c4;
     margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding-bottom: 20px;
+    border-radius:20px 20px 10px 10px;
 }
 
 /*style in of the HOME*/
 .ruebook-title {
-    padding-top: 5%;
+    padding-top: 6%;
     padding-bottom: 0.8%;
     width: 100%;
     margin: 0;
@@ -27,12 +34,14 @@ body {
 }
 
 .slogan-image {
-    width: 42.43%;
+    margin-top: 15px;
+    justify-items: center;
     margin-left: 28.785%;
     padding-bottom: 1%;
 }
 
 .slogan-container {
+    font-size: 20px;
     text-align: center;
     font-family: 'Dancing Script';
 }
@@ -53,7 +62,6 @@ body {
     background-color: #eea143;
     border: 0;
     border-radius: 15px;
-    margin-left: 42%;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
@@ -70,14 +78,14 @@ body {
 .container {
     padding-left: 8%;
     padding-right: 8%;
-    margin: 0;
+    margin-top: 40px;
 }
 
 #top {
     background-color: #e0a358;
     padding-top: 1.4%;
     padding-bottom: 0.7%;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 #sumary {
@@ -134,18 +142,36 @@ body {
     text-align: center;
     border-radius: 9px;
 }
- 
+
+
 .layoute {
     display: grid;
     grid-template-columns: 20% 4% 12% auto;
-    padding-bottom: 3%;
+    padding-bottom: 3%; 
+    margin-top: 50px;
 }
 
 .image{
     display: inline-block;
     width: 100%;
     border-radius: 20px;
+    align-items: center;
 }
+
+@media screen and (max-width: 1300px) {
+    .layoute {
+        display: block; 
+        justify-content: center;
+    }
+
+    .image{
+        width: 50%;
+        border-radius: 20px;
+        align-items: center;
+    }
+}
+
+
 
 #l1, #l2, #l3 {
     background-color: #f9c78b;

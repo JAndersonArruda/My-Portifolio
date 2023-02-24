@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Silkscreen&display=swap');
+
+
+
+body {
+    text-align: justify;
+    background-color: #ffe4c4;
+    margin: 0;
+}
+
+/*style in of the HOME*/
+.ruebook-title {
+    padding-top: 5%;
+    padding-bottom: 0.8%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0a358;
+    color: #000000;
+    text-align: center;
+    border-bottom: 6px solid #8f5107;
+    font-family: 'Silkscreen', cursive;
+}
+
+.slogan {
+    text-align: justify;
+}
+
+.slogan-image {
+    width: 42.43%;
+    margin-left: 28.785%;
+    padding-bottom: 1%;
+}
+
+.slogan-container {
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+.slogan-container p {
+    font-size: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 1.9%;
+    width: 50%;
+    margin-left: 24%;
+}
+
+.button-estante {
+    padding-top: 1.5%;
+    padding-left: 4%;
+    padding-bottom: 1.5%;
+    padding-right: 4%;
+    background-color: #eea143;
+    border: 0;
+    border-radius: 15px;
+    margin-left: 42%;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+}
+
+.button-estante:hover {
+    background-color: #f1b770;
+}
+
+
+
+/*style in of the ESTANTE*/
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0;
+}
+
+#top {
+    background-color: #e0a358;
+    padding-top: 1.4%;
+    padding-bottom: 0.7%;
+    margin-top: 4%;
+}
+
+#sumary {
+    background-color: #e0a358;
+    padding-bottom: 1%;
+    padding-top: 0.1%;
+    text-indent: 1%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.titulo {
+    background-color: #e0a358;
+    color: #ffe4c4;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.t-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.t-link:hover {
+    color: #8f5107;
+}
+
+.text {
+    text-indent: 5%;
+}
+
+#paragrafo {
+    margin-top: -1.75%;
+}
+
+#t1 {
+    text-align: center;
+}
+
+#st1 {
+    text-align: center;
+    color: #644d31;
+    margin-top: -1%;
+}
+
+.sinp-titulo {
+    display: block;
+    width: 90%;
+    background-color: #f1bc7a;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 9px;
+}
+ 
+.layoute {
+    display: grid;
+    grid-template-columns: 20% 4% 12% auto;
+    padding-bottom: 3%;
+}
+
+.image{
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#l1, #l2, #l3 {
+    background-color: #f9c78b;
+    padding-left: 13%;
+    padding-right: 13%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-radius: 20%;
+    padding-bottom: 3%;
+}
+
+th {
+    background-color: #eea143;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+td {
+    background-color: #e7c59c;
+    padding-top: 0.4%;
+    padding-bottom: 2%;
+}

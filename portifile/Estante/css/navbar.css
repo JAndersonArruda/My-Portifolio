@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+.menu {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    position: fixed;
+    background-image: url(../img/estante-para-livros.jpg);
+    top: 0;
+}
+.menu ul {
+    display: inline;
+}
+
+.menu ul li {
+    padding: 1.2% 1%;
+    display: inline-block;
+    font-size: 23px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+}
+
+.menu ul li a {
+    color: #fbf8f5;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: #ffe4c4;
+}

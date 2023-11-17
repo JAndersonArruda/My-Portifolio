@@ -2,8 +2,18 @@ body {
     background-color: #ffd59f;
 }
 
+.container-main {
+    background-color: #b9751c;
+    margin: 0 10rem 7rem;
+    padding: 1px;
+}
+
 h1 {
     color: #ffffff;
+}
+
+#margin-about {
+    padding-bottom: 10rem;
 }
 
 .layout {
